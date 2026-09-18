@@ -1,14 +1,3 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: 'd55423b9-5a63-41b3-812b-d1bd595e5196'
-  PropagateID: 'd55423b9-5a63-41b3-812b-d1bd595e5196'
-  ReservedCode1: '7421ea05-6712-4746-a532-5e6afa57de7e'
-  ReservedCode2: '7421ea05-6712-4746-a532-5e6afa57de7e'
----
-
 # douyin-content-extraction
 
 抖音内容提取技能包 —— 一套可被任意自主智能体（AI Agent）直接调用的抖音内容提取流水线。
