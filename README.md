@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '5eaf9af2-7209-4a0c-b82b-85f5c195f1e6'
-  PropagateID: '5eaf9af2-7209-4a0c-b82b-85f5c195f1e6'
-  ReservedCode1: '2d9e3f06-9a8b-4d1f-b72e-84550334dfab'
-  ReservedCode2: '2d9e3f06-9a8b-4d1f-b72e-84550334dfab'
+  ProduceID: 'd55423b9-5a63-41b3-812b-d1bd595e5196'
+  PropagateID: 'd55423b9-5a63-41b3-812b-d1bd595e5196'
+  ReservedCode1: '7421ea05-6712-4746-a532-5e6afa57de7e'
+  ReservedCode2: '7421ea05-6712-4746-a532-5e6afa57de7e'
 ---
 
 # douyin-content-extraction
@@ -30,7 +30,7 @@ AIGC:
 ## 快速开始
 
 ```bash
-git clone https://github.com/<you>/douyin-content-extraction.git
+git clone https://github.com/Zeashon/douyin-content-extraction.git
 cd douyin-content-extraction
 
 # 1. 安装依赖（建议 Python 3.10+）
