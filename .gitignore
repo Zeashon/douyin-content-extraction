@@ -1,0 +1,13 @@
+# Runtime artifacts
+output/
+.browser_profile/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# Core: browser automation + download
+playwright>=1.40
+requests>=2.28
+openpyxl>=3.1          # Excel export (optional but recommended)
+
+# ASR engine A (recommended for Chinese): SenseVoice via FunASR
+funasr>=1.1
+modelscope>=1.14
+kaldi-native-fbank     # fbank feature backend required by funasr
+
+# ASR engine B (fallback): faster-whisper
+faster-whisper>=1.0
+zhconv>=1.4           # Whisper outputs Traditional Chinese; convert to Simplified
+
+# NOTE:
+# - ffmpeg must be installed on the system and available on PATH
+#   (audio decoding for SenseVoice/Whisper).
+# - On first run: `playwright install chromium` downloads the browser.
+# - SenseVoice model (~900 MB) auto-downloads from modelscope.cn on first use.
+#   If you only need captions/AI chapters (no transcripts), you can skip the
+#   funasr/modelscope/kaldi-native-fbank/faster-whisper/zhconv packages.
